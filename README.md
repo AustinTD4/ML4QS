@@ -24,6 +24,11 @@ We applied Deep Neural Networks, LSTMs, TCNs, and Random Forests for two main ta
 
 Detailed results and insights are elaborated in the report ([ML4QS_Report](#)) included in this repository.
 
+### FILES:
+- **10 Second Sample Windows and Fourier.ipynb**: This notebook processes raw data into 10-second windows and applies Fourier transformations to extract frequency domain features.
+- **Creating Dataset Week 1.ipynb**: An initial notebook documenting the steps and methods used to create our dataset during the first week of the project.
+- **Making Samples and Neural Networks.ipynb**: This notebook outlines the procedure for segmenting the data into samples and the subsequent development and testing of Neural Network models.
+- **TCN_LSTM.ipynb**: Dedicated to the design, implementation, and evaluation of Temporal Convolutional Networks (TCN) and Long Short-Term Memory (LSTM) models for our dataset.
 
 ### FOLDERS:
 - **Data Samples**: Contains true original data gathered from experimenters measured at 20Hz.
