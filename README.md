@@ -4,12 +4,6 @@ Principal component analysis was used to reduce the complexity of the data from 
 
 Deep Neural Networks, LSTMs, TCNs, and Random Forests were applied to the tasks of classification (for activity) and regression (for cadence). The best results are discussed in detail at the conclusion to the report (ML4QS_Report) included in this repository.
 
-FOLDERS:
-[Data Samples] -- Contains true original data gatered from experimenters measured at 20Hz.
-[Filtered Data] -- Contains original and PCA transformed data after using the Kalman filter to remove noise and outliers.
-[Final Data] -- Contains the data used to train the machine learning algorithms.
-[Fourier] -- Contains visualizations for the Fourier transformations of each input from each activity sample.
-
 ### FOLDERS:
 - **Data Samples**: Contains true original data gathered from experimenters measured at 20Hz.
 - **Filtered Data**: Contains original and PCA transformed data after using the Kalman filter to remove noise and outliers.
