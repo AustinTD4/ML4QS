@@ -10,3 +10,8 @@ FOLDERS:
 [Final Data] -- Contains the data used to train the machine learning algorithms.
 [Fourier] -- Contains visualizations for the Fourier transformations of each input from each activity sample.
 
+### FOLDERS:
+- **Data Samples**: Contains true original data gathered from experimenters measured at 20Hz.
+- **Filtered Data**: Contains original and PCA transformed data after using the Kalman filter to remove noise and outliers.
+- **Final Data**: Contains the data used to train the machine learning algorithms.
+- **Fourier**: Contains visualizations for the Fourier transformations of each input from each activity sample.
