@@ -35,3 +35,4 @@ Detailed results and insights are elaborated in the report ([ML4QS_Report](#)) i
 - **Filtered Data**: Contains original and PCA transformed data after using the Kalman filter to remove noise and outliers.
 - **Final Data**: Contains the data used to train the machine learning algorithms.
 - **Fourier**: Contains visualizations for the Fourier transformations of each input from each activity sample.
+- **Grid_Search_Tuning**: Contains the code to perform hyperparameter tuning for the deep neural network classification and regression models
