@@ -5,20 +5,20 @@ This repository contains code, data, and a report for a school project focused o
 ## Project Overview
 
 - **Duration**: 4 weeks
-- **Collaboration**: This project was a joint effort between a partner and me. We gathered data from our phones by conducting a series of movement experiments, resulting in a few hours of data. We manually labeled this data to create a supervised learning environment.
-- **Origins**: This project was our own idea, supervised by a student advisor. All code in this repository represents our original work.
+- **Collaboration**: This project was a joint effort between a Austin Dickerson and Georgios Xanthopolous. They gathered data from cellphones by conducting a series of movement experiments, resulting in a few hours of data. They manually labeled this data to create a supervised learning environment. Austin focused on Machine Learning and Feature Engineering, while Georgios Focused on data analysis.
+- **Origins**: This project's goal was devised by the group members, and supervised by a postgrad advisor. All code in this repository represent Austin Dickerson's original work, however raw data and the report were both a collaboration between Austin and Georgios.
 
 ## Data Processing & Feature Engineering
 
-We employed Principal Component Analysis (PCA) to reduce the data's complexity from its original 9 inputs. Additionally, we utilized the Kalman filter and Fourier transformations for data filtering and transformation. Statistical metrics were integrated into the raw data to provide distribution insights.
+Principal Component Analysis (PCA) was employed to reduce the data's complexity from its original 9 inputs. Additionally, the Kalman filter and Fourier transformations were used for data filtering and transformation. Statistical metrics were integrated into the raw data to provide distribution insights.
 
-For our machine learning models, we explored both **dense** and **sparse** data representations:
+The different machine learning models explored both **dense** and **sparse** data representations:
 - **Dense Representation**: Maintained all available features, presenting a comprehensive view of the data.
 - **Sparse Representation**: Focused on the most significant features, discarding redundant or less informative ones.
 
 ## Machine Learning Models
 
-We applied Deep Neural Networks, LSTMs, TCNs, and Random Forests for two main tasks:
+Deep Neural Networks, LSTMs, TCNs, and Random Forests were applied for two main tasks:
 - **Classification**: Recognizing the user's activity.
 - **Regression**: Predicting the current cadence.
 
