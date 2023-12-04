@@ -36,3 +36,6 @@ Detailed results and insights are elaborated in the report ([ML4QS_Report](#)) i
 - **Final Data**: Contains the data used to train the machine learning algorithms.
 - **Fourier**: Contains visualizations for the Fourier transformations of each input from each activity sample.
 - **Grid_Search_Tuning**: Contains the code to perform hyperparameter tuning for the deep neural network classification and regression models
+
+## Results
+- **ML4QS Report**: Contains detailed results of the experiment and performance improvements over the benchmark
